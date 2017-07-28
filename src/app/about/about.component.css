@@ -1,0 +1,11 @@
+.about{
+  position: relative;
+  height: 95vh;
+}
+.intro{
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin: -145px 0 0 -323px;
+}
