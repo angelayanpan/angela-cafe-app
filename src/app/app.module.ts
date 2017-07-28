@@ -8,6 +8,7 @@ import { ToDoComponent } from './to-do/to-do.component';
 
 import {AppRoutingModule} from './app-routing.module';
 import { DataVisualizationComponent } from './data-visualization/data-visualization.component';
+import { ReadingListComponent } from './reading-list/reading-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DataVisualizationComponent } from './data-visualization/data-visualizat
     NavbarComponent,
     AboutComponent,
     ToDoComponent,
-    DataVisualizationComponent
+    DataVisualizationComponent,
+    ReadingListComponent
   ],
   imports: [
     BrowserModule,

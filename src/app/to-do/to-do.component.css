@@ -1,0 +1,19 @@
+.todo{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.toDoContainer{
+  padding-top: 30px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+form{
+  padding-top: 30px;
+}

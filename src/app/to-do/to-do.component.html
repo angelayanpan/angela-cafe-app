@@ -1,3 +1,16 @@
-<p>
-  to-do works!
-</p>
+<div class="toDoContainer container">
+  <ul>
+    <li *ngFor="let todo of todos; let i=index" class= "todo row">
+      <div class="col col-md-6">
+        {{todo}}
+      </div>
+      <div class="col col-md-6">
+        <button class="btn btn-success btn-delete btn-xs" (click)= "deleteToDo(i)">X</button>
+      </div>
+    </li>
+  </ul>
+  <form (submit)="addToDo(newToDo.value)">
+    <label> Add To-Do: </label>
+    <input type="text" #newToDo /> <br />
+  </form>
+</div>
